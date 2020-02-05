@@ -1,0 +1,69 @@
+<keymap version="1" name="KDE copy" parent="Default for KDE">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl #10000e9" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl #10000b2" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="#10000b2" />
+  </action>
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="alt f12" />
+  </action>
+  <action id="CopyElement" />
+  <action id="EditSource" />
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl less" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="ctrl less" />
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl ampersand" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="Vcs.EditSource" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.JumpToSource" />
+  <action id="XDebugger.SetValue" />
+  <action id="com.jetbrains.python.console.RunPythonConsoleAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+</keymap>

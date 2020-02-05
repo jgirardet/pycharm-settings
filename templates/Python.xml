@@ -1,0 +1,12 @@
+<templateSet group="Python">
+  <template name="setup_ui" value="from PyQt5.QtWidgets import *&#10;&#10;&#10;class NewWidget(QWidget):&#10;    def __init__(self, ctx):&#10;        super().__init__()&#10;        self.ctx = ctx&#10;        self.setup_ui()&#10;&#10;    def setup_ui(self):&#10;        self.create_widgets()&#10;        self.modify_widgets()&#10;        self.create_layouts()&#10;        self.add_widgets_to_layouts()&#10;        self.setup_connections()&#10;&#10;    def create_widgets(self):&#10;        pass&#10;&#10;    def modify_widgets(self):&#10;        # css_file = self.ctx.get_resource(&quot;style.css&quot;)&#10;        # with open(css_file, &quot;r&quot;) as f:&#10;        #     self.setStyleSheet(f.read())&#10;        pass&#10;&#10;    def create_layouts(self):&#10;        self.main_layout = None&#10;        self.setLayout(self.main_layout)&#10;&#10;    def add_widgets_to_layouts(self):&#10;        pass&#10;&#10;    def setup_connections(self):&#10;        pass&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="super" value="super().$method$($end$)" description="'super()' call" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
