@@ -1,0 +1,15 @@
+<templateSet group="qt">
+  <template name="Property" value="$Name$Changed = Signal()&#10;    &#10;@Property($Type$, notify=$Name$Changed)&#10;def $Name$(self):&#10;    return self._$Name$&#10;&#10;@$Name$.setter&#10;def $Name$_set(self, value: int):&#10;    self._$Name$ = value&#10;    self.$Name$Changed.emit()&#10;    " description="Qt Property template" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="Python_Class" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
