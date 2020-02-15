@@ -1,5 +1,5 @@
 <templateSet group="pytest">
-  <template name="@pytest-parametrize" value="@pytest.mark.parametrize(&quot;$vars$&quot;,[($value$),])&#10;def test_$fnname$(self, $vars$):&#10;  &#10;        &#10;            " toReformat="false" toShortenFQNames="true">
+  <template name="@pytest-parametrize" value="@pytest.mark.parametrize(&quot;$vars$&quot;,[($value$),])&#10;def test_$fnname$(self, $vars$):&#10;  &#10;        &#10;            " description="" toReformat="false" toShortenFQNames="true">
     <variable name="vars" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="fnname" expression="" defaultValue="" alwaysStopAt="true" />
